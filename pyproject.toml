@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qshellbridge"
+version = "0.1.0"
+description = "A command-line tool to interact with remote tmux SSH sessions using intelligent agents."
+authors = ["Suren's Creations <spetro511@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "qshellbridge" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+rich = "^13.0"
+typer = { extras = ["all"], version = "^0.9.0" }
+
+[tool.poetry.scripts]
+qshell = "qshellbridge.cli:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
