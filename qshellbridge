@@ -1,9 +1,0 @@
-qshellbridge/
-├── main.py           # Entry point for user interaction
-├── setup.py          # Interactive configuration wizard
-├── bridge.py         # Core logic for tmux control and session handling
-├── config.py         # Configuration persistence and session naming
-├── utils.py          # Utility functions (log tailing, etc.)
-├── requirements.txt  # Python dependencies
-├── README.md         # Full project documentation
-└── sessions/         # Saved session scripts (auto-generated)

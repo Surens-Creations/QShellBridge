@@ -1,0 +1,11 @@
++-------------+       +--------------------+       +--------------------+
+|   You       | <---> |   QShellProxy.py   | <---> |  tmux + SSH session |
+| (Amazon Q)  |       | (local translator) |       |  (Remote host)      |
++-------------+       +--------------------+       +--------------------+
+
+QShellProxy:
+- Runs locally
+- Accepts commands from Q via function calls
+- Sends them into the SSH session via tmux
+- Reads output from log mirror or pty
+- Q thinks it's just controlling a local shell

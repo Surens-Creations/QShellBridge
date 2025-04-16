@@ -1,0 +1,9 @@
+qshellbridge
+├── main.py
+├── setup.py
+├── bridge.py
+├── config.py
+├── utils.py
+├── requirements.txt
+├── README.md
+└── sessions
